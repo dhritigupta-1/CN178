@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="track.css">
+
+
+</head>
+<body>
+    <!----Start here nav-->
+    <div class="hero">
+        <nav>
+            <h2 class="logo" id="logo">Health<span>and</span>Wellness<span>Track</span>er</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wellness.html">Wellness Resources</a></li>
+                <li><a href="progress.html">Progress Monitoring</a></li>
+                <li><a href="About.html">About us</a></li>
+            </ul>
+            <a href="Login.html" class="btn">Login</a>
+        </nav>
+    </div>
+    <section id="home">
+        <h2>Health and Wellness Tracker</h2>
+        <p>Track your workouts, monitor your nutrition, and visualize your progress.</p>
+    </section>
+
+    <section id="workouts">
+        <h2>User Profile</h2>
+        <form>
+            <label for="exercise">Username:</label>
+            <input type="text" id="exercise" name="exercise" required>
+
+            <label for="duration"> Age: </label>
+            <input type="number" id="duration" name="duration" required>
+
+            <button type="submit">Save Profile</button>
+        </form>
+
+        <table>
+            <caption>Wellness Goals</caption>
+            <thead>
+                <tr>
+                    <th>Fitness Goals</th>
+                    <th>Exercise : Run 5 miles</th>
+                    <th>Duration: every alternate day</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+
+    <section id="nutrition">
+        <h2>Activity Tracking</h2>
+        <form>
+            <label for="food">Exercise:</label>
+            <input type="text" id="food" name="food" required>
+
+            <label for="calories">Last Workout: </label>
+            <input type="number" id="calories" name="calories" required>
+
+            <button type="submit">Add Activity</button>
+        </form>
+
+        <table>
+            <caption>Wellness Resources</caption>
+            <thead>
+                <tr>
+                    <th>Article: Tips for better sleep</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+
+    <section id="progress">
+        <h2>Progress</h2>
+        <form>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+
+            <button type="submit">Update Weight</button>
+        </form>
+
+        <form>
+        <p>Your current weight: <span id="currentWeight"> 
+                <label for="weight"> </label>
+                <input type="number" id="weight" name="weight"></span> kg</p>
+        </form>
+    </section>
+    <footer>
+        <p class="foot">Health and Wellness Tracker</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <p class="last">CopyRight By 2110389611@gmail.com</p>
+    </footer>
+</body>
+</html>
